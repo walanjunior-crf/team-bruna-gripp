@@ -1,7 +1,7 @@
 // Team Bruna Gripp — service worker.
 // Com internet: busca a versão mais nova do app (e guarda uma cópia).
 // Sem internet: abre a cópia guardada. O plano e as marcações ficam no IndexedDB do aparelho, não aqui.
-const CACHE = "tbg-shell-v1";
+const CACHE = "tbg-shell-v2";
 const SHELL = ["./", "./index.html", "./manifest.json", "./mark.png", "./icon-192.png", "./icon-180.png",
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"];
